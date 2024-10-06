@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Styles//HorizontalScrollList.css'; // Import the CSS file
 
+
 import { FaUmbrellaBeach, FaTree, FaStar, FaMoneyBillAlt, FaUsers, FaDog, FaCoffee, FaHome, FaMountain, FaHeart, FaSwimmer, FaFire, FaSkiing, FaHiking, FaPlane } from 'react-icons/fa';
 
 const categories = [
