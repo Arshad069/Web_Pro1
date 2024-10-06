@@ -17,7 +17,15 @@ const Footer = () => {
                             <li><a href="#!" className="footer-link">Help</a></li>
                         </ul>
                     </div>
-
+                    <div className="footer-column">
+                        <h5 className="footer-heading">Hosting</h5>
+                        <ul className="footer-link-list">
+                            <li><a href="#!" className="footer-link">Become a Host</a></li>
+                            <li><a href="#!" className="footer-link">Host your home</a></li>
+                            <li><a href="#!" className="footer-link">Host an Online Experience</a></li>
+                            <li><a href="#!" className="footer-link">Resource Center</a></li>
+                        </ul>
+                    </div>
                     
                 </div>
             </div>
