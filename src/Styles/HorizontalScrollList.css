@@ -1,0 +1,48 @@
+/* Container styles for the horizontal scroll list */
+.scroll-container {
+    display: flex;
+    background-color: #ffffff; /* Keeping it clean and white */
+    width: 100%;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Remove the scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+/* Button styles */
+.scroll-item {
+    background-color: #ffffff;
+    padding: 15px; /* Increased padding for better click area */
+    border-radius: 10px; /* Softer rounded corners */
+    display: flex;
+    width: 150px; /* Adjusted width for more flexibility */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem; /* Slightly larger text */
+    font-weight: 600;
+    color: #374151;
+    transition: transform 0.2s ease-in-out; /* Smooth scaling on hover */
+}
+
+/* Hover effect */
+.scroll-item:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    background-color: #f5f5f5; /* Light gray background on hover */
+}
+
+/* Icon size for consistency */
+.icon-size {
+    font-size: 25px;
+    margin-bottom: 5px;
+}

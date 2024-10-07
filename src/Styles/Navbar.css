@@ -1,0 +1,92 @@
+/* Navbar container */
+.navbar-header {
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 50;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.navbar-wrapper {
+    max-width: 1200px; /* Adjusted for consistency */
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Navbar inner container */
+.navbar-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+/* Logo */
+.navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff385c; /* Airbnb red color */
+}
+
+/* Search Bar */
+.navbar-searchbar {
+    display: none;
+}
+
+.navbar-searchbar.visible {
+    display: flex;
+    align-items: center;
+    border: 2px solid #e2e2e2;
+    border-radius: 25px; /* Adjusted for softer look */
+    padding: 0.5rem 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Search bar input */
+.searchbar-input {
+    background: transparent;
+    flex-grow: 1;
+    padding: 0.5rem;
+    font-weight: 600;
+    color: #4a4a4a;
+}
+
+/* Navigation Links */
+.navbar-links {
+    display: none;
+    gap: 1.5rem;
+}
+
+.navbar-links.visible {
+    display: flex;
+    background-color: white;
+}
+
+/* Right-side icons */
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Mobile Menu */
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu.visible {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Divider */
+.mobile-menu-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #e2e2e2;
+    margin: 0.5rem 0;
+}

@@ -1,0 +1,88 @@
+/* Footer container */
+.footer {
+    background-color: #1a1a1a; /* Darker background for contrast */
+    color: #f3f4f6; /* Light text color */
+    padding: 40px 0;
+}
+
+/* Container inside the footer */
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+/* Flex container for the lists and sections */
+.footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Each footer column */
+.footer-column {
+    flex: 1;
+    margin-bottom: 16px;
+}
+
+/* Footer section headings */
+.footer-heading {
+    color: #ff385c; /* Accent color for headings */
+    font-weight: bold; /* Use bold for emphasis */
+    margin-bottom: 8px;
+}
+
+/* Footer links */
+.footer-link-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-link {
+    color: #f3f4f6; /* Light text color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #ff385c; /* Accent color on hover */
+}
+
+/* Footer bottom section */
+.footer-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.2); /* Add subtle border */
+    padding-top: 16px; /* Padding on top */
+}
+
+/* Footer copyright text */
+.footer-copyright {
+    color: #b0b0b0; /* Slightly lighter for copyright text */
+}
+
+/* Social media icons */
+.footer-socials {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-social-icon {
+    color: #f3f4f6; /* Light text color */
+    transition: color 0.3s ease;
+}
+
+.footer-social-icon:hover {
+    color: #ff385c; /* Accent color on hover */
+}
+
+/* Footer select box */
+.footer-select {
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 8px;
+    color: #ff385c;
+}
