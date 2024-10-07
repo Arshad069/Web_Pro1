@@ -23,7 +23,7 @@ const categories = [
     { name: 'Flights', category: 'Flights', icon: <FaPlane className='text-[25px] mb-[5px]' /> },
 ];
 const HorizontalScrollList = ({ setCategory }) => {
-    return (
+    return (oiejroiehirjthorethjprthmrpit6hju
         <div className="horizontal-scroll-list no-scrollbar">
             {categories.map((category, index) => (
                 <button
