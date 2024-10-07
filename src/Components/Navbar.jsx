@@ -4,8 +4,8 @@ import { AiOutlineSearch } from 'react-icons/ai';
 import { IoMdGlobe } from 'react-icons/io';
 import { NavLink } from 'react-router-dom';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import SearchBar from './SearchBar';
-import HorizontalScrollList from './HorizontalScrollList';
+import SearchBar from './AirBnbSearchBar.jsx';
+import HorizontalScrollList from './AirBnbHorizScrolList.jsx';
 import "../Styles/Navbar.css"
 
 const Navbar = ({ setCategory }) => {
@@ -14,6 +14,7 @@ const Navbar = ({ setCategory }) => {
 
     const toggleMenu = () => {
         setIsOpen(!isOpen);
+        
     };
 
     const handleScroll = () => {
